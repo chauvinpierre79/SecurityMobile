@@ -1,0 +1,7 @@
+{
+  "name": "SecurityMobile",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
