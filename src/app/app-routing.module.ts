@@ -8,9 +8,22 @@ const routes: Routes = [
   },
   {
     path: '',
-    redirectTo: 'home',
+    redirectTo: 'login',
     pathMatch: 'full'
   },
+  {
+    path: 'login',
+    loadChildren: () => import('./login/login.module').then( m => m.LoginPageModule)
+  },
+  {
+    path: 'film',
+    loadChildren: () => import('./film/film.module').then( m => m.FilmPageModule)
+  },
+  {
+    path: 'film/:id',
+    loadChildren: () => import('./film-details/film-details.module').then( m => m.FilmDetailsPageModule)
+  },
+  
 ];
 
 @NgModule({

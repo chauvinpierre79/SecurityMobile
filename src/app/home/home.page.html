@@ -1,20 +1,31 @@
-<ion-header [translucent]="true">
+<ion-header>
   <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
+      <ion-title size="large">Security App</ion-title>
     </ion-toolbar>
   </ion-header>
 
   <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+  <ion-card>
+    <ion-card-header>
+      <img src="https://i.pinimg.com/originals/6e/4a/d9/6e4ad92e8f4ea6c849a6d8232b46d612.png"  alt="SecurityMobile-logo">
+      <ion-card-subtitle></ion-card-subtitle>
+      <ion-card-title>Security Mobile App</ion-card-title>
+    </ion-card-header>
+  
+    <ion-card-content>
+      Bonjour, bienvenue sur mon application mobile.
+      <br>
+      <ion-button expand="block" (click)="liste()">Liste des films</ion-button>
+    </ion-card-content>
+  </ion-card>
   </div>
 </ion-content>
