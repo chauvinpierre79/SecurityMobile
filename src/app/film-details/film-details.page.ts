@@ -11,9 +11,9 @@ export class FilmDetailsPage implements OnInit {
   information = null;
 
   /**
-   * Constructor of our details page
-   * @param activatedRoute Information about the route we are on
-   * @param movieService The movie Service to get data
+   * 
+   * @param activatedRoute 
+   * @param movieService 
    */
 
   
@@ -23,7 +23,7 @@ export class FilmDetailsPage implements OnInit {
   ngOnInit() {
     let id = this.activatedRoute.snapshot.paramMap.get('id');
  
-    // Get the information from the API
+    
     this.movieService.getDetails(id).subscribe(result => {
       this.information = result;
     });

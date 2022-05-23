@@ -24,11 +24,7 @@ export class FilmPage implements OnInit {
 
     
 
-   // this.results.subscribe(res => {
-//
-   //   
-//
-   // })
+   
   }
 
 }
