@@ -10,3 +10,5 @@ Pour naviguer, un compte est déja créer:
 - mot de passe: azerty
 
 ou bien vous pouvez vous meme créer un autre compte.
+
+Le fichier d'apk se trouve au chemin ./SecurityMobile/platforms/android/app/build/outputs/apk/debug/app-debug.apk
